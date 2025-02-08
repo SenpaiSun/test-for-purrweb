@@ -1,6 +1,9 @@
+/* global styles */
 @import url(../assets/normalize.css);
 @import url(../assets/fonts.css);
+/* root styles */
 @import url(./root/root.css);
+/* header styles */
 @import url(./header/header.css);
 @import url(./header/__button/header__button.css);
 @import url(./header/__menu-container/header__menu-container.css);
@@ -14,6 +17,7 @@
 @import url(./header/__navigation-item/header__navigation-item.css);
 @import url(./header/__navigation-list/header__navigation-list.css);
 @import url(./header/__navigation/header__navigation.css);
+/* hero styles */
 @import url(./hero/hero.css);
 @import url(./hero/__button/hero__button.css);
 @import url(./hero/__container/hero__container.css);
@@ -22,6 +26,7 @@
 @import url(./hero/__image/hero__image.css);
 @import url(./hero/__subtitle/hero__subtitle.css);
 @import url(./hero/__title/hero__title.css);
+/* about styles*/
 @import url(./about/about.css);
 @import url(./about/__container-content-description/about__container-content-description.css);
 @import url(./about/__container-content/about__container-content.css);
@@ -35,6 +40,7 @@
 @import url(./about/__item-title/about__item-title.css);
 @import url(./about/__paragraph/about__paragraph.css);
 @import url(./about/__title/about__title.css);
+/* mobile-app styles */
 @import url(./mobile-app/mobile-app.css);
 @import url(./mobile-app/__container/mobile-app__container.css);
 @import url(./mobile-app/__image/mobile-app__image.css);
@@ -43,10 +49,12 @@
 @import url(./mobile-app/__text_second/mobile-app__text_second.css);
 @import url(./mobile-app/__text_third/mobile-app__text_third.css);
 @import url(./mobile-app/__text_transparent/mobile-app__text_transparent.css);
+/* statistics styles */
 @import url(./statistics/statistics.css);
 @import url(./statistics/__container/statistics__container.css);
 @import url(./statistics/__info/statistics__info.css);
 @import url(./statistics/__percent/statistics__percent.css);
+/* card-zone styles */
 @import url(./card-zone/card-zone.css);
 @import url(./card-zone/__card-subtitle/card-zone__card-subtitle.css);
 @import url(./card-zone/__card-title/card-zone__card-title.css);
@@ -66,3 +74,18 @@
 @import url(./card-zone/__subtitle/card-zone__subtitle.css);
 @import url(./card-zone/__image-third/card-zone__image-third.css);
 @import url(./card-zone/__title/card-zone__title.css);
+/* business styles */
+@import url(./business/business.css);
+@import url(./business/__button/business__button.css);
+@import url(./business/__container-head/business__container-head.css);
+@import url(./business/__container-social-title/business__container-social-title.css);
+@import url(./business/__container-social/business__container-social.css);
+@import url(./business/__partners-image/business__partners-image.css);
+@import url(./business/__partners-item/business__partners-item.css);
+@import url(./business/__partners/business__partners.css);
+@import url(./business/__social-network-image/business__social-network-image.css);
+@import url(./business/__social-network-item/business__social-network-item.css);
+@import url(./business/__social-network/business__social-network.css);
+@import url(./business/__social-subtitle/business__social-subtitle.css);
+@import url(./business/__social-title/business__social-title.css);
+@import url(./business/__title/business__title.css);
