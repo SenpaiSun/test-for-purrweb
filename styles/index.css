@@ -1,5 +1,6 @@
 @import url(../assets/normalize.css);
 @import url(../assets/fonts.css);
+@import url(./root/root.css);
 @import url(./header/header.css);
 @import url(./header/__button/header__button.css);
 @import url(./header/__menu-container/header__menu-container.css);
@@ -21,3 +22,16 @@
 @import url(./hero/__image/hero__image.css);
 @import url(./hero/__subtitle/hero__subtitle.css);
 @import url(./hero/__title/hero__title.css);
+@import url(./about/about.css);
+@import url(./about/__container-content-description/about__container-content-description.css);
+@import url(./about/__container-content/about__container-content.css);
+@import url(./about/__container-figure/about__container-figure.css);
+@import url(./about/__container-item/about__container-item.css);
+@import url(./about/__container-items/about__container-items.css);
+@import url(./about/__container-title/about__container-title.css);
+@import url(./about/__figure/about__figure.css);
+@import url(./about/__item-figure/about__item-figure.css);
+@import url(./about/__item-subtitle/about__item-subtitle.css);
+@import url(./about/__item-title/about__item-title.css);
+@import url(./about/__paragraph/about__paragraph.css);
+@import url(./about/__title/about__title.css);
