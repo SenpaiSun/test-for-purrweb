@@ -43,3 +43,7 @@
 @import url(./mobile-app/__text_second/mobile-app__text_second.css);
 @import url(./mobile-app/__text_third/mobile-app__text_third.css);
 @import url(./mobile-app/__text_transparent/mobile-app__text_transparent.css);
+@import url(./statistics/statistics.css);
+@import url(./statistics/__container/statistics__container.css);
+@import url(./statistics/__info/statistics__info.css);
+@import url(./statistics/__percent/statistics__percent.css);
