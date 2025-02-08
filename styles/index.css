@@ -13,3 +13,11 @@
 @import url(./header/__navigation-item/header__navigation-item.css);
 @import url(./header/__navigation-list/header__navigation-list.css);
 @import url(./header/__navigation/header__navigation.css);
+@import url(./hero/hero.css);
+@import url(./hero/__button/hero__button.css);
+@import url(./hero/__container/hero__container.css);
+@import url(./hero/__image-container/hero__image-container.css);
+@import url(./hero/__image-vector/hero__image-vector.css);
+@import url(./hero/__image/hero__image.css);
+@import url(./hero/__subtitle/hero__subtitle.css);
+@import url(./hero/__title/hero__title.css);
