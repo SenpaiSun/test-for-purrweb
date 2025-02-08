@@ -1,0 +1,44 @@
+.mobile-app__text {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1;
+  white-space: nowrap;
+  flex-shrink: 0;
+  padding: 0 10px;
+}
+
+@media screen and (min-width: 1000px) {
+  .mobile-app__text {
+    font-size: 128px;
+  }
+}
+
+.mobile-app__container:nth-child(1) .mobile-app__text {
+  animation: mobile-text-right 25s linear infinite;
+}
+
+.mobile-app__container:nth-child(2) .mobile-app__text {
+  animation: mobile-text-left 25s linear infinite;
+}
+
+.mobile-app__container:nth-child(3) .mobile-app__text {
+  animation: mobile-text-right 25s linear infinite;
+}
+
+@keyframes mobile-text-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes mobile-text-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

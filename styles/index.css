@@ -35,3 +35,11 @@
 @import url(./about/__item-title/about__item-title.css);
 @import url(./about/__paragraph/about__paragraph.css);
 @import url(./about/__title/about__title.css);
+@import url(./mobile-app/mobile-app.css);
+@import url(./mobile-app/__container/mobile-app__container.css);
+@import url(./mobile-app/__image/mobile-app__image.css);
+@import url(./mobile-app/__text/mobile-app__text.css);
+@import url(./mobile-app/__text_first/mobile-app__text_first.css);
+@import url(./mobile-app/__text_second/mobile-app__text_second.css);
+@import url(./mobile-app/__text_third/mobile-app__text_third.css);
+@import url(./mobile-app/__text_transparent/mobile-app__text_transparent.css);
