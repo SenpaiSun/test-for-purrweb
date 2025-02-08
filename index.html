@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Budds</title>
-</head>
-<body>
-
-  </header>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Budds</title>
+  </head>
+  <body class="root">
+    <header class="header">
+      <nav class="header__navigation">
+        <ul class="header__navigation-list">
+          <li class="header__navigation-item header__navigation-item_active"><a href="#" class="header__navigation-item-link header__navigation-item-link_active">For Business</a></li>
+          <li class="header__navigation-item"><a href="#" class="header__navigation-item-link">For Customers</a></li>
+        </ul>
+      </nav>
+      <div class="header__menu header__menu_fixed">
+        <div class="header__menu-container">
+          <a href="#">
+            <picture>
+              <source srcset="static/header-logo-large.svg" media="(min-width: 1000px)" />
+              <img class="header__menu-logo" src="static/header-logo.svg" alt="Website logo" />
+            </picture>
+          </a>
+          <h1 class="header__menu-name">budss</h1>
+        </div>
+        <button class="header__menu-toggle" aria-label="Open menu"></button>
+        <button class="header__button">Contact sales</button>
+      </div>
+    </header>
+  </body>
 </html>
