@@ -21,7 +21,7 @@ function openPopup() {
   document.querySelector('.content').classList.add('content-inactive');
 }
 
-// Function for close all popups
+// Function for close all popupsgit 
 function closePopup() {
   document.querySelector('.popup_success').classList.remove('popup_opened');
   document.querySelector('.popup_contacts').classList.remove('popup_opened');

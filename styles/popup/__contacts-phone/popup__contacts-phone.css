@@ -6,13 +6,13 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 1.4;
-  border: 1px solid #F1F1F1;
-  background-image: url(/image/usa.svg);
+  border: 1px solid #f1f1f1;
+  background-image: url(/static/usa.svg);
   background-repeat: no-repeat;
   background-position: 15px 12px;
   outline: none;
 }
 
 .popup__contacts-phone:focus {
-  border: 1px solid #A7A7A7;
+  border: 1px solid #a7a7a7;
 }

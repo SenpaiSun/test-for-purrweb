@@ -5,8 +5,8 @@
   right: 13px;
   top: 18px;
   border: none;
-  background-color: rgba(0,0,0,0);
-  background-image: url(/image/close-black.svg);
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(/static/close-black.svg);
   background-repeat: no-repeat;
   cursor: pointer;
 }
