@@ -303,5 +303,73 @@
         </ul>
       </div>
     </footer>
+    <div class="popup popup_cookie popup_cookie_active">
+      <button type="button" class="popup__cookie-close"></button>
+      <form class="popup__cookie-form">
+        <p class="popup__cookie-description">This website uses cookies to ensure you get the best experience on our website. They also allow us to analyze user behavior in order to constantly improve the website for you.</p>
+        <div class="popup__cookie-button-container">
+          <button type="button" class="popup__cookie-accept">Accept</button>
+          <button type="button" class="popup__cookie-decline">Decline</button>
+        </div>
+      </form>
+    </div>
+    <div class="popup popup_contacts">
+      <button class="popup__contacts-close"></button>
+      <form class="popup__contacts-form">
+        <div class="popup__contacts-container">
+          <label class="popup__contacts-field" for="Name">Name<span class="popup__contacts-asterisk"> *</span></label>
+          <input class="popup__contacts-input" name="Name" id="Name" placeholder="Enter name" required>
+          <span class="popup__contacts-error">This field is required.</span>
+        </div>
+        <div class="popup__contacts-container">
+          <label class="popup__contacts-field" for="Email">Email<span class="popup__contacts-asterisk"> *</span></label>
+          <input class="popup__contacts-input" name="Email" id="Email" placeholder="Enter email" required>
+          <span class="popup__contacts-error">This field is required.</span>
+        </div>
+        <div class="popup__contacts-container popup__contacts-container_phone">
+          <label class="popup__contacts-field" for="Phone">Phone number<span class="popup__contacts-asterisk"> *</span></label>
+          <div class="popup__contacts-phone-container">
+            <input class="popup__contacts-phone" name="Phone" id="Phone" placeholder="+1 900 000 00 00" required>
+          </div>
+          <span class="popup__contacts-error">This field is required.</span>
+        </div>
+        <div class="popup__contacts-container">
+          <label class="popup__contacts-field" for="Company">Company</label>
+          <input class="popup__contacts-input" name="Company" id="Company" placeholder="Enter company">
+        </div>
+        <div class="popup__contacts-container">
+          <label class="popup__contacts-field" for="Website">Website/Store URL</label>
+          <input class="popup__contacts-input" name="Website" id="Website" placeholder="Enter Website/Store URL">
+        </div>
+        <span class="popup__contacts-error-main">Please fill in all required fields</span>
+        <div class="popup__contacts-container">
+          <p class="popup__contacts-agreement">By submitting this form you are agreeing to Budss’s <a href="#" target="_blank">Privacy Policy</a> and <a href="#" target="_blank">Terms of Use</a></p>
+        </div>
+        <button class="popup__contacts-submit popup__button-disabled">Contact sales</button>
+      </form>
+    </div>
+    <div class="popup popup_success">
+      <button class="popup__success-close"></button>
+      <picture>
+        <source srcset="/image/success-image-large.png" media="(min-width: 1000px)">
+        <img src="/image/success-image.svg" class="popup__success-image" alt="A painted man with a finger up">
+      </picture>
+      <h4 class="popup__success-title">Thank you!</h4>
+      <p class="popup__success-subtitle">Thank you, we have received your application and will contact you soon!</p>
+      <button class="popup__success-button">Super!</button>
+    </div>
+    <div class="popup popup_burger">
+      <button class="popup__burger-close"></button>
+      <button class="popup__burger-button">Contact sales</button>
+      <nav class="popup__burger-container">
+        <ul class="popup__burger-list">
+          <li class="popup__burger-item"><a href="#" class="popup__burger-link" target="_blank">For Business</a></li>
+          <li class="popup__burger-item"><a href="#" class="popup__burger-link" target="_blank">For Customers</a></li>
+          <li class="popup__burger-item"><a href="#" class="popup__burger-link" target="_blank">Privacy Policy</a></li>
+          <li class="popup__burger-item"><a href="#" class="popup__burger-link" target="_blank">Terms Of Use - Seller</a></li>
+          <li class="popup__burger-item"><a href="#" class="popup__burger-link" target="_blank">Terms of Use - Sellers & Customers</a></li>
+        </ul>
+      </nav>
+    </div>
   </body>
 </html>
