@@ -149,3 +149,5 @@
 @import url(./popup/_cookie/_active/popup_cookie_active.css);
 @import url(./popup/_opened/popup_opened.css);
 @import url(./popup/_success/popup_success.css);
+@import url(./content/content.css);
+@import url(./content/_inactive/content-inactive.css);

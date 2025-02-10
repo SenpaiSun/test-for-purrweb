@@ -21,7 +21,7 @@ function openPopup() {
   document.querySelector('.content').classList.add('content-inactive');
 }
 
-// Function for close all popupsgit 
+// Function for close all popupsgit
 function closePopup() {
   document.querySelector('.popup_success').classList.remove('popup_opened');
   document.querySelector('.popup_contacts').classList.remove('popup_opened');
@@ -107,7 +107,7 @@ submitForm.addEventListener('submit', (event) => {
 })
 
 // Handler for fixed header menu
-const scrollOffset = 80;
+const scrollOffset = 40;
 
 window.addEventListener('scroll', () => {
   if (window.scrollY >= scrollOffset) {
