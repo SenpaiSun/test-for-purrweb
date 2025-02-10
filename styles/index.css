@@ -89,3 +89,22 @@
 @import url(./business/__social-subtitle/business__social-subtitle.css);
 @import url(./business/__social-title/business__social-title.css);
 @import url(./business/__title/business__title.css);
+/* footer style */
+@import url(./footer/footer.css);
+@import url(./footer/__button/footer__button.css);
+@import url(./footer/__container-button/footer__container-button.css);
+@import url(./footer/__container-copyright/footer__container-copyright.css);
+@import url(./footer/__container/footer__container.css);
+@import url(./footer/__copyright/footer__copyright.css);
+@import url(./footer/__item-app/footer__item-app.css);
+@import url(./footer/__item-text-active/footer__item-text-active.css);
+@import url(./footer/__item-text/footer__item-text.css);
+@import url(./footer/__item/footer__item.css);
+@import url(./footer/__list-active/footer__list-active.css);
+@import url(./footer/__list-app/footer__list-app.css);
+@import url(./footer/__logo-container/footer__logo-container.css);
+@import url(./footer/__list/_active/footer__list_active.css);
+@import url(./footer/__list/footer__list.css);
+@import url(./footer/__logo/footer__logo.css);
+@import url(./footer/__nav/footer__nav.css);
+@import url(./footer/__name/footer__name.css);
