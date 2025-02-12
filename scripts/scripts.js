@@ -23,10 +23,10 @@ function openPopup() {
 
 // Function for close all popupsgit
 function closePopup() {
+  document.querySelector('.content').classList.remove('content-inactive');
   document.querySelector('.popup_success').classList.remove('popup_opened');
   document.querySelector('.popup_contacts').classList.remove('popup_opened');
   document.querySelector('.root').classList.remove('root_scroll-disable');
-  document.querySelector('.content').classList.remove('content-inactive');
 }
 
 // Listeners for button sales, burger and close popup
@@ -102,7 +102,6 @@ requiredInputs.forEach((input) => {
 
 submitForm.addEventListener('submit', (event) => {
   event.preventDefault()
-  closePopup()
   successForm.classList.add('popup_opened')
 })
 
