@@ -48,14 +48,14 @@ updateClock()
 startButton.addEventListener('click', () => {
   if (!interval) {
     interval = setInterval(updateClock, 1000)
+    statusClock.style.backgroundImage = 'url(../clock-static/play.svg)'
   }
-  statusClock.style.backgroundImage = 'url(../clock-static/play.svg)'
 })
 
 pauseButton.addEventListener('click', () => {
   if (interval) {
     clearInterval(interval);
     interval = null;
+    statusClock.style.backgroundImage = 'url(../clock-static/pause.svg)'
   }
-  statusClock.style.backgroundImage = 'url(../clock-static/pause.svg)'
 })
